@@ -1,0 +1,11 @@
+﻿.box {
+    flex-basis: 20%;
+    min-height: 100px;
+    flex-shrink: 0;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;
+    align-items: center;
+}
