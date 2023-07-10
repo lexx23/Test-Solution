@@ -10,3 +10,9 @@
    При реализации необходимо использовать Redux Toolkit, при добавлении и удалении нужно сделать анимацию, используя react-spring.
 2. Анимация.   
    При добавлении нового элемента, все существующие элементы должны плавно смещаться вправо, новый элемент должен выезжать с левой стороны экрана. При удалении, последний элемент должен уезжать вправо, все остальные элементы должны находиться на месте.
+
+
+Для запуска необходима строка подключения к БД (локально в секретах):
+{
+   "Database:Master":  "Server=localhost;Initial Catalog=Test;Persist Security Info=False;User ID=sa;Password=;MultipleActiveResultSets=False;Connection Timeout=30;Min Pool Size=2;Trust Server Certificate=true;"
+}
